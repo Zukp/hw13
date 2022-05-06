@@ -1,13 +1,11 @@
 import './App.css';
-import Request from './component/Request';
+import Back from './component/Back';
 
 
 function App() {
   return (
     <>
-
-    <Request />
-    
+    <Back />
     </>
   )
 }
