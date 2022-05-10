@@ -1,11 +1,11 @@
 import './App.css';
-import Back from './component/Back';
+import Reducer from './component/Reducer';
 
 
 function App() {
   return (
     <>
-    <Back />
+    <Reducer />
     </>
   )
 }

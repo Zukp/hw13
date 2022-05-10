@@ -1,7 +1,7 @@
 import {useState,useEffect,useRef } from 'react'
-import styles from './Back.module.css';
+import styles from './Reducer.module.css';
 
-function Kvadrat() {
+function Reducer() {
 const [done,setDone] = useState(false)
 const refDiv = useRef(null)
 
@@ -15,4 +15,4 @@ useEffect(() => {
 },[done])  
   return <div ref={refDiv}  className={!done ? styles.red : styles.green}></div>
 }
-export default Kvadrat
+export default Reducer
